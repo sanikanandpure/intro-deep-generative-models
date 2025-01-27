@@ -28,6 +28,8 @@ Digital images are nothing very different from what we've been talking about; th
 
 In the next set of notes, we will cover the basic image transformation operations: point, local, and global.
 
+## Resources:
+[Lecture on Image Representation](https://www.youtube.com/watch?v=PyoJdMrUMqI)
 
 
 
