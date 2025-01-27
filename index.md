@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Intro to Deep Generative Models
 layout: home
 ---
 
