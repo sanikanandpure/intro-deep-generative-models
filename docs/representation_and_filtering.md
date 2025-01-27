@@ -17,7 +17,7 @@ This means that when we represent color images in matrix form, we actually requi
 
 Matrices are often the most common representation of images, because they are the most intuitive to look at and understand. They also make operations on images a lot easier, since matrix arithmetic operations (such as addition, subtraction, scaling etc.) all still apply here. We will talk about basic image transformations in the next set of notes.
 ### Function representation
-Matrices can also be represented as continuous functions, where feeding an input $(i, j)$ to the function $f$ representing the image will output the corresponding intensity for that point. The key difference between a matrix and function representation of an image is that the matrix representation is discrete, whereas a function representation is continuous. This makes the function representation useful for certain mathematical operations, such as calculating gradients (this will come into play in the section on edge detection).
+Images can also be represented as continuous functions, where feeding an input $(i, j)$ to the function $f$ representing the image will output the corresponding intensity for that point. The key difference between a matrix and function representation of an image is that the matrix representation is discrete, whereas a function representation is continuous. This makes the function representation useful for certain mathematical operations, such as calculating gradients (this will come into play in the section on edge detection).
 
 Once again, for grayscale images this representation is straightforward:
 $f(x, y) = i$
