@@ -1,5 +1,6 @@
 ---
-title: Topic 1
+title: Image Representation
 layout: home
-nav_order: 1
+nav_order: 2
 ---
+
