@@ -17,7 +17,7 @@ Each of these tasks are called **transformations**; they can be achieved mathema
 Point operations operate on individual pixels. You can think of them as pixel-to-pixel operations, where the value of pixel $(m_i, n_j)$ in the output image comes from a transformation on the pixel $(m_i, n_j)$ (at the same coordinate location) in the input image.
 
 This makes sense when we look at a visualization:
-![[point_op.png]]
+![point_op](point_op.png)
 
 Point transformations are incredibly useful for tasks like:
 - adjusting the brightness of an image
@@ -37,12 +37,12 @@ A neighborhood is the set of pixels immediately surrounding the current pixel. I
 
 For example, let's say we have the following image:
 
-![[highway.png]]
+![example image](highway.png)
 
 For any given pixels in this image, the pixels immediately surrounding in a certain $p*p$ window will be the most similar to it. For example, a pixel in the dashboard region will have a neighborhood that also makes up the dashboard. A pixel in the dark blue part of the sky will have neighbors that are also in that part of the sky. This principle is extremely crucial in almost every computer vision application.
 
 Thus, a local operation looks like this:
-![[local_op.png]]
+![local_op](local_op.png)
 
 Local operations are some of the most important transformations in computer vision.
 - reducing noise
@@ -53,7 +53,7 @@ Local operations are some of the most important transformations in computer visi
 ## Global transformations
 Output value $(m_i,n_j)$ is dependent upon all values in the input image. This is a little less used in computer vision, but is useful in cases where a **Fourier transform** is required. The Fourier transform breaks down an image into a sum of complex exponentials with different frequencies, phases, and magnitudes. The output of the Fourier transform is a representation of the image in the frequency domain. 
 
-![[global_op.png]]
+![global_op](global_op.png)
 
 In the next section, we will talk in depth about filtering, a local operation.
 
