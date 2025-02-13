@@ -41,11 +41,13 @@ Then, we multiply each pixel value in the input image by the corresponding weigh
 This is the general idea of linear filtering. Within it, there are two slight variations in how we apply a filter to an image: correlation, and cross-correlation. 
 
 In correlation:
+
 ![corr_formula](correlation_formula.png)
 
 We simply add up all in the values in the neighborhood, and divide by the number of pixels in that neighborhood. This final value becomes the value of the center pixel in the neighborhood. This is equivalent to performing cross-correlation with the filter having weights all equal to $1/(p*p)$. 
 
 In cross-correlation:
+
 ![cross_corr_formula](cross_correlation_formula.png)
 
 We multiply each pixel value in the input image by the corresponding weight in the filter, and sum the products. That final value becomes the value of the center pixel in the neighborhood. 
@@ -60,6 +62,7 @@ Work through the image below to get an idea of what the moving average does.
 ![moving average](moving_avg.png)
 
 This moving average operation can be implemented via a filter. What would such a filter look like? Recall that moving average is nothing but correlation. Thus, the filter would look something like this, given that our neighborhood is of size $3*3$
+
 ![box filter](box_filter.png)
 Another name for this is the **box filter**; it is a filter that averages pixels within a neighborhood. 
 
