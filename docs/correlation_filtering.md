@@ -64,6 +64,7 @@ Work through the image below to get an idea of what the moving average does.
 This moving average operation can be implemented via a filter. What would such a filter look like? Recall that moving average is nothing but correlation. Thus, the filter would look something like this, given that our neighborhood is of size $3*3$
 
 ![box filter](box_filter.png)
+
 Another name for this is the **box filter**; it is a filter that averages pixels within a neighborhood. 
 
 ### Gaussian filter
