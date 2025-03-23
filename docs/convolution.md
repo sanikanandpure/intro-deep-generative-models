@@ -45,8 +45,8 @@ Here are some more properties of convolution that may be useful to look at:
 5. **Identity property**  
    The "identity filter" is  
    $$ f = [..., 0, 0, 1, 0, 0, ...] $$  
-   and  
-   $$ f * e = f $$
+   and $$ f * e = f $$
+
 While convolution is very useful, there are still some scenarios where correlation might be a better operation to use. 
 Usually, a good rule of thumb is if you can do the task with both correlation and convolution, choose to do it with convolution due to its mathematical properties. 
 
