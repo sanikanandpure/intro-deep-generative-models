@@ -29,17 +29,24 @@ Here, $h$ is the image, and $f_1$ and $f_2$ are filters we want to perform convo
 This is a massively useful property as it allows us to optimize our image processing tasks.
 
 Here are some more properties of convolution that may be useful to look at:
-1. Commutative
-	$f*g = g*f$
-2. Associative
-	 $(f*g) * h = f * (g*h)$
-3. Distributes over addition
-	$f * (g + h) = (f*g)+(f*h)$
-4. Can factor out scalars
-	$kf*g=f*kg = k(f*g)$ where $k$ is a scalar.
-5. Identity property
-	The "identity filter" is $f = [..., 0, 0, 1, 0, 0, ...]$, and $f*e=f$
+1. **Commutative**  
+   $$ f * g = g * f $$
 
+2. **Associative**  
+   $$ (f * g) * h = f * (g * h) $$
+
+3. **Distributes over addition**  
+   $$ f * (g + h) = (f * g) + (f * h) $$
+
+4. **Can factor out scalars**  
+   $$ kf * g = f * k g = k (f * g) $$  
+   where \( k \) is a scalar.
+
+5. **Identity property**  
+   The "identity filter" is  
+   $$ f = [..., 0, 0, 1, 0, 0, ...] $$  
+   and  
+   $$ f * e = f $$
 While convolution is very useful, there are still some scenarios where correlation might be a better operation to use. 
 Usually, a good rule of thumb is if you can do the task with both correlation and convolution, choose to do it with convolution due to its mathematical properties. 
 
