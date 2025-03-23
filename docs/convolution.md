@@ -40,7 +40,7 @@ Here are some more properties of convolution that may be useful to look at:
 
 4. **Can factor out scalars**  
    $$ kf * g = f * k g = k (f * g) $$  
-   where \( k \) is a scalar.
+   where $k$ is a scalar.
 
 5. **Identity property**  
    The "identity filter" is  
