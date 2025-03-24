@@ -6,6 +6,7 @@ nav_order: 6
 
 # Edge Detection
 Edges are crucial for visual perception, both for humans and machines. Humans primarily perceive images and objects in terms of edges. For example, if I gave you edges that correspond to an image of an animal (like below), you would very easily be able to identify that the animal in the picture is a cat.
+
 ![img1](edge_detection_img1.png)
 
 This is possible because edges capture the most important structural information in an image. 
@@ -109,9 +110,12 @@ The choice of this threshold is very important--it is a hyperparameter that we m
 - If the threshold we choose is **too low**: the resulting edge map will contain a lot of insignificant edges and artifacts--it is difficult to see where the true edges lie.
 
 ![img11](edge_detection_img11.png)
+
 Image credit: Kristen Grauman
 - If the threshold we choose if **too high**: the resulting edge map will contain disconnected and incomplete edges
+  
 ![img12](edge_detection_img12.png)
+
 Image credit: Kristen Grauman
 
 Traditional thresholding is a tricky business--it seems that whichever value you choose, you either have to deal with small artifacts in your edge map, or you have to deal with disconnected edges. It turns out that there is a more refined thresholding technique that performs much better: hysteresis thresholding. 
