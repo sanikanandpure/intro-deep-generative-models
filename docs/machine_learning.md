@@ -5,7 +5,7 @@ nav_order: 6
 ---
 
 # Intro to Deep Learning: Machine Learning Fundamentals
-We've now talked about some basic image transformation techniques and Computer Vision fundamentals. It turns out that Computer Vision today is very different from simple numerical methods. Today, deep learning-based methods dominate--especially when it comes to generative models. In this and the next set of notes, let's dive into the basics of deep learning. 
+We've now talked about some basic image transformation techniques and Computer Vision fundamentals. It turns out that Computer Vision today has advanced well beyond deterministic methods. Today, deep learning-based methods dominate--especially when it comes to generative models. In this and the next set of notes, let's dive into the basics of deep learning. 
 Deep learning is a subcategory of machine learning that uses neural networks with many layers (thus "deep") that increasingly build higher and higher-order features from data. These networks learn representations of data by continuously adapting to massive datasets during training without manual feature engineering. They are able to solve complex problems like image recognition, natural language processing, and speech recognition.
 ## Why is deep learning so powerful?
 Deep learning is powerful because:
