@@ -116,10 +116,10 @@ You can include either type of layer in your network architecture depending on h
 If you want more information on how to implement and train a CNN in code, take a look at the resources below. 
 
 ## Resources
-- CNN lecture by Andrej Karpathy: great for going into more detail about CNNs https://www.youtube.com/watch?v=LxfUGhug-iQ
-- CNN implementation tutorial in Pytorch by Patrick Loeber: https://www.youtube.com/watch?v=pDdP0TFzsoQ
-- CNN implementation in Pytorch from Pytorch documentation: https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
+- [Stanford University CNN lecture by Andrej Karpathy](https://www.youtube.com/watch?v=LxfUGhug-iQ): great for going into more detail about CNNs 
+- [CNN implementation tutorial in Pytorch by Patrick Loeber](https://www.youtube.com/watch?v=pDdP0TFzsoQ)
+- [CNN implementation in Pytorch from Pytorch documentation](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
 ### Resource for learning Pytorch
-- Official Pytorch documentation: by far the **best** resource for learning Pytorch quickly. It is very easy to read, has many tutorials you can follow, and is open-source so you can see how everything is implemented under the hood. Pytorch is usually what is used in research and industry for training models, so it is **very important** to learn if you are doing ML projects" https://pytorch.org/tutorials/. 
+- [Official Pytorch documentation](https://pytorch.org/tutorials/): by far the **best** resource for learning Pytorch quickly. It is very easy to read, has many tutorials you can follow, and is open-source so you can see how everything is implemented under the hood. Pytorch is usually what is used in research and industry for training models, so it is **very important** to learn if you want to do ML projects. 
 
 
