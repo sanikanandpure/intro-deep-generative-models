@@ -248,9 +248,9 @@ The learning rate controls how quickly your model updates its parameters during 
 This approach, often called learning rate scheduling, helps balance between convergence speed and stability.
 
 ## Resources
-A lot of the content from this blog was taken from Andrew Ng's Machine Learning Specialization on Coursera. If you're new to ML, I recommend doing it. It provides a good high-level overview of ML. It's not very math-focused, but is good for picking up the general concepts:. You can audit it for free here  https://www.coursera.org/specializations/machine-learning-introduction. 
+A lot of the content from this blog was taken from Andrew Ng's Machine Learning Specialization on Coursera. If you're new to ML, I recommend doing it. It provides a good high-level overview of ML. It's not very math-focused, but is good for picking up the general concepts:. You can audit it for free [here](https://www.coursera.org/specializations/machine-learning-introduction). 
 
 Some resources for understanding gradient descent:
-- Medium article: "Convex vs. Non-Convex Functions: Why it Matters in Optimization for Machine Learning" https://rumn.medium.com/convex-vs-non-convex-functions-why-it-matters-in-optimization-for-machine-learning-39cd9427dfcc
-- 3b1b Gradient Descent lecture: https://www.youtube.com/watch?v=IHZwWFHWa-w
+- Medium article: ["Convex vs. Non-Convex Functions: Why it Matters in Optimization for Machine Learning"](https://rumn.medium.com/convex-vs-non-convex-functions-why-it-matters-in-optimization-for-machine-learning-39cd9427dfcc)
+- [3b1b Gradient Descent lecture](https://www.youtube.com/watch?v=IHZwWFHWa-w)
 
