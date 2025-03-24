@@ -33,7 +33,9 @@ This idea is crucial to understanding how a computer might identify edges. While
 
 ## Finding edges numerically via partial derivatives
 Here is a visual example:
+
 ![img5](edge_detection_img5.png)
+
 The image above has two edges: one on the left of the black rectangle and one to the right. The intensity function has value 1 corresponding to the white areas of the image, and has value 0 corresponding to the black areas of the image. The transition from white to black, and black to white mark the places of greatest change in intensity (edges!). Thus, by taking the first derivative of the intensity function, we can identify the edges in the image as they will correspond to the extrema. 
 
 A valid question at this point is--how can it be possible to take a derivative of an image? How would we go about doing that? I mentioned above that we take the derivative of the image intensity function. In the real world, however, it is difficult to get a continuous intensity function corresponding to an image, since we are only given the discrete intensity values for each pixel. Thus, we don't compute the exact derivative (as you may be used to doing in calculus classes); instead, we compute an approximation of the first derivative for discrete data. The formula is as follows:
@@ -76,6 +78,7 @@ For horizontal edges, the convolution filter would look something like this:
 **Note**: in a previous set of notes, we said that in convolution, we double flip the filter first. Here, we assume that the filter is already double flipped for us. From now on, whenever we talk about a "convolution filter", we assume that it has been double flipped already, and all we have to do is perform the filtering operation (aka dot product/weighted sum, then replace the value of the center pixel with that value).
 
 Notice that when you work the convolution operation out on an image, this works out to be exactly the approximate derivative formulas we see above. Let's try this now:
+
 ![img8](edge_detection_img8.png)
 
 Note that the x-coordinate in this case measures the horizontal distance from the top left pixel, while the y-coordinate measures the vertical distance from the top left pixel. 
@@ -84,6 +87,7 @@ You can work this out for horizontal edges and convince yourself that the convol
 
 ## The effects of noise
 So far, our edge detection techniques have assumed no noise--this is hardly ever the case! In fact, forgetting to remove noise messes up the derivative-taking process quite a bit. Take a look below:
+
 ![img9](edge_detection_img9.png)
 
 As you can see, f(x), the function representing the image intensities, is quite bumpy and noisy. Still, we are able to make our the general shape of the function; if we see this function in its digital image form, it is likely that we'd still be able to see and interpret it without much difficulty. However, when we take ethe derivative of this function, the extrema corresponding to edges are nearly impossible to extract!
