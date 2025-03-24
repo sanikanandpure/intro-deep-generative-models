@@ -93,14 +93,14 @@ Note: as long as you have a good high-level understanding of how neural networks
 
 With that being said, if you want to work on research developing new generative models, or working on theory, etc. it may be useful to expose yourself to the mathematics. Here are some resources I've found helpful!
 
-- 3b1b Backpropagation (high-level explanation): https://www.youtube.com/watch?v=Ilg3gGewQ5U
-- 3b1b Backpropagation (calculus): https://www.youtube.com/watch?v=tIeHLnjs5U8&vl=en
-- 3b1b Backpropagation (calculus) --> this is the blog version of the video: https://www.3blue1brown.com/lessons/backpropagation-calculus
-- Andrew Ng's backpropagation explanation: https://www.youtube.com/watch?v=mO7BpWmzT78
-	- This comes from a really useful ML course by Andrew Ng on Coursera. You can audit it for free and I highly recommend it if you're new to ML: https://www.coursera.org/specializations/machine-learning-introduction 
-	- Andrew Ng also has a Deep Learning specialization on Coursera. I haven't done this one but I heard that it can be useful if you want to go more in-depth: https://www.coursera.org/specializations/deep-learning 
-- Andrej Karpathy's backpropagation explanation: https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=1&t=490s&pp=iAQB
-- Backpropagation - The Math Behind Optimization: https://365datascience.com/trending/backpropagation/
+- [3b1b Backpropagation (high-level explanation)](https://www.youtube.com/watch?v=Ilg3gGewQ5U)
+- [3b1b Backpropagation (calculus)](https://www.youtube.com/watch?v=tIeHLnjs5U8&vl=en)
+- [3b1b Backpropagation (calculus)](https://www.3blue1brown.com/lessons/backpropagation-calculus) --> this is the blog version of the video 
+- [Andrew Ng's backpropagation explanation](https://www.youtube.com/watch?v=mO7BpWmzT78)
+	- This comes from a really useful [ML course by Andrew Ng on Coursera](https://www.coursera.org/specializations/machine-learning-introduction). You can audit it for free and I highly recommend it if you're new to ML. 
+	- Andrew Ng also has a [Deep Learning specialization on Coursera](https://www.coursera.org/specializations/deep-learning). I haven't done this one but I heard that it can be useful if you want to go more in-depth.  
+- [Andrej Karpathy's backpropagation explanation](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=1&t=490s&pp=iAQB)
+- [Backpropagation - The Math Behind Optimization](https://365datascience.com/trending/backpropagation/)
 
 There are a LOT of resources online on backpropagation and deep learning in general. The list of resources above is not an exhaustive list, and there are probably resources that you will find even more helpful. I recommend that you start with these, and if there is anything you still don't understand to find resources of your own!
 
