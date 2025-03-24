@@ -66,8 +66,11 @@ Now, a valid question at this point would be--how do I implement taking the deri
 ### Using convolutions for taking derivatives
 For simplicity, let's only consider vertical and horizontal edges. 
 For vertical edges, the convolution filter would look something like this:
+
 ![img6](edge_detection_img6.png)
+
 For horizontal edges, the convolution filter would look something like this:
+
 ![img7](edge_detection_img7.png)
 
 **Note**: in a previous set of notes, we said that in convolution, we double flip the filter first. Here, we assume that the filter is already double flipped for us. From now on, whenever we talk about a "convolution filter", we assume that it has been double flipped already, and all we have to do is perform the filtering operation (aka dot product/weighted sum, then replace the value of the center pixel with that value).
