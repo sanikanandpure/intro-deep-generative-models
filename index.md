@@ -12,6 +12,7 @@ Many of the images and content for these notes were taken from the following cou
 - [Deep Learning for Computer Vision by NPTEL-NOC IITM](https://www.youtube.com/playlist?list=PLyqSpQzTE6M_PI-rIz4O1jEgffhJU9GgG)
 - [UT Austin CS 378: Generative Visual Computing](https://www.cs.utexas.edu/~huangqx/CS378_Generative_Visual_Computing.html)
 - [Stanford CS 231n: Deep Learning for Computer Vision](https://cs231n.stanford.edu/)
+- [Andrew Ng's Machine Learning Specialization on Coursera](https://www.coursera.org/specializations/machine-learning-introduction)
 
 I try to give due credit under slides and images I copy/paste whenever possible. If there are any sources I am missing, please reach out!
 
